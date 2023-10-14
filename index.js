@@ -29,6 +29,10 @@ app.get('/', (req, res) => {
   res.status(200).json("Welcome to Address Book with CD!")
 })
 
+app.get('/helloworld', (req, res) => {
+  res.status(200).json("Hello world! new update");
+})
+
 app.listen(port, () => {
   console.log(`Server is running on port ${port}...`)
 })
