@@ -28,8 +28,8 @@ jobs:
       - name: Deploy to EB
         uses: einaregilsson/beanstalk-deploy@v21
         with:
-          AWS_ACCESS_KEY_ID: $
-          AWS_SECRET_ACCESS_KEY: $
+          aws_access_key: $
+          aws_secret_key: $
           application_name: AddrBook
           environment_name: AddrBook-env
           version_label: $
